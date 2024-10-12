@@ -1,102 +1,299 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="curriculo.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Currículo de Lucas Henrique Serafim da Silva</title>
+    <title>Currículo de Lucas Henrique</title>
 </head>
 <body>
-    <h3 class="title">Currículo Pessoal</h3>
-    <br><br>
-
+    
     <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Lucas Henrique</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#sobre"><i class="fas fa-user"></i> Sobre Mim</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#formacao"><i class="fas fa-briefcase"></i> Formação</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#experiencia"><i class="fas fa-graduation-cap"></i> Experiência</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#habilidades"><i class="fas fa-code"></i> Habilidades</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contato"><i class="fas fa-envelope"></i> Contato</a>
-                    </li>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Mim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#formacao">Formação</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experiencias">Experiências</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
                 </ul>
             </div>
         </div>
     </header>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-        <img src="imagens/56f87098-d16c-4410-b536-61856c36122a.jfif" class="profile-pic" alt="Profile Picture">
-    </div>
-    <div class="col-md-8"></div>
-        <h1 class="name">LUCAS HENRIQUE SERAFIM DA SILVA</h1>
-        <h3 class="subtitle">Analista de Sistemas</h3>
-    </div>
-</div>
-</div>
     
+    <main class="container mt-5 pt-5">
+        
+        <section class="row align-items-center my-5">
+            <div class="col-md-4 text-center">
+                
+            </div>
+            <div class="col-md-8 text-center text-md-start">
+                <h1 class="name">Lucas Henrique Serafim da Silva</h1>
+                <h3 class="subtitle">Analista de Sistemas</h3>
+            </div>
+        </section>
 
+        
+        <section id="sobre" class="section my-5">
+            <h2>Sobre Mim</h2>
+            <p>
+                Sou Lucas Henrique, estudante de Análise e Desenvolvimento de Sistemas (ADS) pela Faculdade SENAC. Busco uma oportunidade para aplicar meus conhecimentos em desenvolvimento de software e análise de sistemas em um ambiente dinâmico e desafiador.
+            </p>
+        </section>
+        <hr>
 
-    <!-- Seções do currículo -->
-    <section id="sobre" class="section">
-        <h1>Sobre Mim</h1>
-        <p>
-            Sou Lucas Henrique, um estudante de 21 anos do curso de Análise e Desenvolvimento de Sistemas (ADS) pela Faculdade SENAC, através do programa Embarque Digital.
-            Busco uma oportunidade para aplicar meus conhecimentos em desenvolvimento de software e análise de sistemas em um ambiente dinâmico e desafiador.
-            Estou motivado a contribuir com minha paixão por tecnologia e minha habilidade em resolver problemas para ajudar sua equipe a alcançar seus objetivos.
-        </p>
-    </section>
-    <hr>
-
-    <section id="formacao" class="section">
-        <h1>Formação</h1>
-        <ul class="lista">
-            <li>Análise e Desenvolvimento de Sistemas - Faculdade SENAC-PE (2024-2026)</li>
-            <li>Técnico em Desenvolvimento de Sistemas (2019-2021)</li>
-            <li>CDD 2024 (2024-2024)</li>
-        </ul>
-    </section>
-    <hr>
-
-    <section id="habilidades" class="section">
-        <h1>Habilidades</h1>
-        <ul class="hab">
-            <li><i class="fa-brands fa-python"></i> PYTHON</li>
-            <li><i class="fa-solid fa-database"></i> MYSQL</li>
-            <li><i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> HTML/CSS</li>
-            <li><i class="fa-brands fa-figma"></i> FIGMA</li>
-            <li><i class="fa-brands fa-node-js"></i> NODE.JS</li>
-        </ul>
-    </section>
-    <hr>
-
-    <section id="contato" class="section">
-        <h1>Contato</h1>
-        <ul class="cont">
-            <li><i class="fa-brands fa-github"></i> <a href="https://github.com/LucasSerafim147" target="_blank">GITHUB</a></li>
-            <li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/lucas-henrique-77b0aa2aa/" target="_blank">LINKEDIN</a></li>
-            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:lucashenrique74148@gmail.com" target="_blank">EMAIL</a></li>
-            <li><i class="fa-brands fa-whatsapp"></i> <a href="https://api.whatsapp.com/send?phone=5581996373212&text=OL%C3%A1%20vi%20seu%20curriculo%20e%20gostaria%20de%20entrar%20em%20contato" target="_blank">
-                WHATSAPP</a></li>
+        
+        <section id="formacao" class="section my-5">
+            <h2>Formação</h2>
+            <ul class="lista">
+                <li><strong>Análise e Desenvolvimento de Sistemas</strong> - Faculdade SENAC-PE (2024-2026)</li>
+                <li><strong>Técnico em Desenvolvimento de Sistemas</strong> (2019-2021)</li>
+                <li><strong>Com Domínio Digital 4.0</strong> - Projeto Extensão Certificado pela Universidade Estadual do Ceará (2024.1)</li>
             </ul>
         </section>
+        <hr>
+
+        
+        <section id="habilidades" class="section my-5">
+            <h2>Habilidades</h2>
+            <table class="table table-striped table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Tecnologia</th>
+                        <th scope="col">Nível</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><i class="fa-brands fa-python"></i> Python</td>
+                        <td>Avançado</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-brands fa-java"></i> Java</td>
+                        <td>Intermediário</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-database"></i> MySQL</td>
+                        <td>Intermediário</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-code"></i> C#</td>
+                        <td>Intermediário</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+
+        
+        <section id="experiencias" class="section my-5">
+            <h2>Experiências</h2>
+            <div class="row">
+                <div class="col-md-12 my-3">
+                    <h5><strong>Monitor do Laboratório de Inovação - Embarque Digital</strong></h5>
+                    <p>
+                        Atuação no suporte a projetos de inovação, auxiliando no desenvolvimento de soluções tecnológicas e no gerenciamento de atividades do laboratório.
+                        Apoio técnico aos alunos no uso de ferramentas de desenvolvimento de software.
+                    </p>
+                </div>
+                <div class="col-md-12 my-3">
+                    <h5><strong>Projeto de Quality Assurance (QA) - Residência Tecnológica - CESAR</strong></h5>
+                    <p>
+                        Atuei em um projeto voltado para Quality Assurance, realizando testes automatizados e manuais, identificando falhas e colaborando com equipes para assegurar a qualidade e confiabilidade de software.
+                    </p>
+                </div>
+                <div class="col-md-12 my-3">
+                    <h5><strong>Residência Tecnológica - Kick Off</strong></h5>
+                    <p>
+                        Participação em programas de desenvolvimento e inovação no Porto Digital, atuando no desenvolvimento de sistemas, integração de soluções tecnológicas e resolução de problemas complexos em projetos de software.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+       
+        <section id="contato" class="section my-5">
+            <h2>Contato</h2>
+            <ul class="list-unstyled">
+                <li><i class="fa-brands fa-github me-2"></i> <a href="https://github.com/LucasSerafim147" target="_blank">GITHUB</a></li>
+                <li><i class="fa-brands fa-linkedin me-2"></i> <a href="https://www.linkedin.com/in/lucas-henrique-77b0aa2aa/" target="_blank">LINKEDIN</a></li>
+                <li><i class="fa-solid fa-envelope me-2"></i> <a href="mailto:lucashenrique74148@gmail.com" target="_blank">EMAIL</a></li>
+                <li><i class="fa-brands fa-whatsapp me-2"></i> <a href="https://api.whatsapp.com/send?phone=5581996373212" target="_blank">WHATSAPP</a></li>
+            </ul>
+        </section>
+        
     
-    </body>
-    </html>
+        
+        <section class="text-center my-4">
+            <button id="toggleFormButton" class="btn btn-primary">Mostrar Formulário</button>
+        </section>
+
+        
+        <section id="formularioSection" class="section my-5" style="display: none;">
+            <h2>Formulário de Contato</h2>
+            <form id="contactForm" class="mt-4" enctype="multipart/form-data">
+                
+                <div class="mb-3">
+                    <label for="firstName" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="firstName" required>
+                </div>
+                <div class="mb-3">
+                    <label for="lastName" class="form-label">Sobrenome</label>
+                    <input type="text" class="form-control" id="lastName" required>
+                </div>
+
+                
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Telefone</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="(XX) XXXXX-XXXX" pattern="\(\d{2}\) \d{4,5}-\d{4}" required>
+                </div>
+
+                
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="email@exemplo.com" required>
+                </div>
+
+               
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                </div>
+
+                
+                <div class="mb-3">
+                    <label for="language" class="form-label">Língua Aplicada no Serviço</label>
+                    <select class="form-select" id="language" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="en">Inglês</option>
+                        <option value="es">Espanhol</option>
+                        <option value="fr">Francês</option>
+                        <option value="pt">Português (pt-br)</option>
+                    </select>
+                </div>
+
+                
+                <div class="mb-3">
+                    <label for="fileUpload" class="form-label">Upload do Protótipo</label>
+                    <input type="file" class="form-control" id="fileUpload" accept=".pdf, .doc, .docx, .jpeg, .png" required>
+                </div>
+
+               
+                <div class="mb-3">
+                    <label class="form-label">Linguagens Preferidas</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="python" id="langPython">
+                        <label class="form-check-label" for="langPython">Python</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="java" id="langJava">
+                        <label class="form-check-label" for="langJava">Java</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="mysql" id="langMySQL">
+                        <label class="form-check-label" for="langMySQL">MySQL</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="csharp" id="langCSharp">
+                        <label class="form-check-label" for="langCSharp">C#</label>
+                    </div>
+                </div>
+
+               
+                <div class="mb-3">
+                    <label class="form-label">Banco de Dados Recomendado</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="database" id="dbMySQL" value="mysql" required>
+                        <label class="form-check-label" for="dbMySQL">MySQL</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="database" id="dbPostgreSQL" value="postgresql" required>
+                        <label class="form-check-label" for="dbPostgreSQL">PostgreSQL</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="database" id="dbMongoDB" value="mongodb" required>
+                        <label class="form-check-label" for="dbMongoDB">MongoDB</label>
+                    </div>
+                </div>
+
+                
+                <div class="mb-3">
+                    <label for="meetingShift" class="form-label">Turno de Preferência para Reuniões</label>
+                    <select class="form-select" id="meetingShift" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="morning">Manhã</option>
+                        <option value="afternoon">Tarde</option>
+                        <option value="evening">Noite</option>
+                    </select>
+                </div>
+
+               
+                <div class="mb-3">
+                    <label for="meetingTime" class="form-label">Melhor Horário para Reuniões</label>
+                    <input type="time" class="form-control" id="meetingTime" required>
+                </div>
+
+                
+                <div class="mb-3">
+                    <label for="deliveryDate" class="form-label">Previsão de Entrega Desejada</label>
+                    <input type="date" class="form-control" id="deliveryDate" required>
+                </div>
+
+              
+                <div class="mb-3">
+                    <button type="reset" class="btn btn-secondary">Limpar</button>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
     
+    <script>
+        const toggleFormButton = document.getElementById('toggleFormButton');
+        const formularioSection = document.getElementById('formularioSection');
+
+        toggleFormButton.addEventListener('click', () => {
+            if (formularioSection.style.display === 'none') {
+                formularioSection.style.display = 'block';
+                toggleFormButton.textContent = 'Esconder Formulário';
+            } else {
+                formularioSection.style.display = 'none';
+                toggleFormButton.textContent = 'Mostrar Formulário';
+            }
+        });
+    </script>
+
+  
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            if (this.checkValidity()) {
+                alert('Formulário enviado com sucesso!');
+            } else {
+                alert('Por favor, preencha todos os campos obrigatórios.');
+            }
+        });
+    </script>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
